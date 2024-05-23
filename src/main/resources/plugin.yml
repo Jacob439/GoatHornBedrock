@@ -1,10 +1,6 @@
-name: goatHornPlugin
+name: GoatHornBedrock
 
 main: org.example.Main
 version: 1.0
 author: Jacob
-commands:
-  goat2:
-    description: GoatNoise
-    usage: /goat2
-    permission: goatHornPlugin.play
+api-version: 1.20

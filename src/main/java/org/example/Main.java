@@ -3,12 +3,21 @@ package org.example;
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;
 
-public class Main extends JavaPlugin{
-    FileConfiguration config = getConfig();
+import java.util.Collections;
 
+public class Main extends JavaPlugin{
+    FileConfiguration config = this.getConfig();
+    public static float volume = 1f;
+    public static float pitch = 1f;
     public void onEnable() {
-        getLogger().info("onEnable is called!");
+        config.options().setHeader(Collections.singletonList("Configure the volume and pitch of the goat horns below"));
+        config.addDefault("volume", volume);
+        config.addDefault("pitch", pitch);
+        config.options().copyDefaults(true);
+        saveConfig();
         getServer().getPluginManager().registerEvents(new HornListener(), this);
-        this.getCommand("goat2").setExecutor(new CommandGoatSound());
+
+        volume = (float) config.getDouble("volume");
+        volume = (float) config.getDouble("volume");
     }
 }

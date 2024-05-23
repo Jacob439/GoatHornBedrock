@@ -1,2 +1,2 @@
-rootProject.name = "goatHornPlugin"
+rootProject.name = "GoatHornBedrock"
 
