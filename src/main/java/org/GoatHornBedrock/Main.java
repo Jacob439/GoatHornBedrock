@@ -1,4 +1,4 @@
-package org.example;
+package org.GoatHornBedrock;
 
 import org.bukkit.configuration.file.FileConfiguration;
 import org.bukkit.plugin.java.JavaPlugin;

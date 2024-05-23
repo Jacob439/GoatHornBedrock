@@ -1,6 +1,6 @@
 name: GoatHornBedrock
 
-main: org.example.Main
+main: org.GoatHornBedrock.Main
 version: 1.0
 author: Jacob
 api-version: 1.20

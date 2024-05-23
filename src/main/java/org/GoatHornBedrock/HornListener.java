@@ -1,4 +1,4 @@
-package org.example;
+package org.GoatHornBedrock;
 
 import org.bukkit.Material;
 import org.bukkit.MusicInstrument;
@@ -13,8 +13,8 @@ import org.bukkit.inventory.meta.MusicInstrumentMeta;
 import org.geysermc.api.Geyser;
 
 import static org.bukkit.Bukkit.getLogger;
-import static org.example.Main.volume;
-import static org.example.Main.pitch;
+import static org.GoatHornBedrock.Main.volume;
+import static org.GoatHornBedrock.Main.pitch;
 
 public class HornListener implements Listener {
     @EventHandler
