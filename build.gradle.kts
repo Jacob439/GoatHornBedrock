@@ -14,8 +14,8 @@ repositories {
 dependencies {
     testImplementation(platform("org.junit:junit-bom:5.10.0"))
     testImplementation("org.junit.jupiter:junit-jupiter")
-    compileOnly("org.spigotmc:spigot-api:1.20.6-R0.1-SNAPSHOT")
-    compileOnly("org.geysermc.geyser:api:2.3.1-SNAPSHOT")
+    compileOnly("org.spigotmc:spigot-api:1.21-R0.1-SNAPSHOT")
+    compileOnly("org.geysermc.geyser:api:2.4.0-SNAPSHOT")
 }
 
 tasks.test {
